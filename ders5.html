@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="done.html" method="get">
+        <h1>Information Form</h1>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname" required />
+        <br>
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" required />
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required placeholder="Type must be email"/>
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required placeholder="Password mustn't show"/>
+        <br>
+        <br />
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender" required>
+            <option value="">Choose</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br />
+        <br>
+        <label for="favorite">Favorite sports: </label>
+        <br>
+        <input type="checkbox" name="football" id="football" />
+        <label for="football">Football</label>
+        <input type="checkbox" name="basketBall" id="basketBall" />
+        <label for="basketBall">BasketBall</label>
+        <input type="checkbox" name="tennis" id="tennis" />
+        <label for="tennis">Tennis</label>
+        <input type="checkbox" name="fight" id="fight" />
+        <label for="fight">Fight</label>
+        <br>
+        <br>
+        <label for="interval">Your age interval: </label>
+        <br>
+        <input type="radio" name="interval" id="1" />
+        <label for="1">15-25</label>
+        <br>
+        <input type="radio" name="interval" id="2" />
+        <label for="2">25-35</label>
+        <br>
+        <input type="radio" name="interval" id="3" />
+        <label for="2">35+</label>
+        <br>
+        <br>
+        <label for="range">English level: </label>
+        <input type="range" name="range" id="range" />
+        <br>
+        <br>
+        <label for="phone_number">Phone: </label>
+        <input type="tel" name="phone_number" id="phone_number" value="+994"/>
+        <br>
+        <br>
+        <label for="fav">Fav number: </label>
+        <input type="number" name="fav" id="fav" required />
+        <br>
+        <br>
+        <label for="about">Comment: </label>
+        <br>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit" />
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
