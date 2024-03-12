@@ -190,7 +190,7 @@ hr {
  }
 
  @media (max-width: 601px) {                  
-    .container :nth-child(1){
+    .column1{
        display: none;
     }
     .p_2{
