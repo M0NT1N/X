@@ -76,3 +76,17 @@ footer h3{
     font-size: 24px; 
     margin: 10px 0; 
 }
+
+.pSpan span{
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: inline-block;
+    background-color: #616161;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lihover:hover{
+    background-color: #ccc;
+}
